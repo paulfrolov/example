@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet"">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--<script src="js/jquery-3.2.1.js"></script>-->
+  <title>Pig Game</title>
+</head>
+
+<body>
+  <div class="wrapper clearfix">
+    <div class="player-0-panel active">
+      <div class="yourturn"></div>
+      <div class="player-name" id="name-0">Игрок 1</div>
+      <div class="player-score" id="score-0">43</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Current score</div>
+        <div class="player-current-score" id="current-0">11</div>
+      </div>
+    </div>
+
+    <div class="player-1-panel">
+      <div class="yourturn"></div>
+      <div class="player-name" id="name-1">Игрок 2</div>
+      <div class="player-score" id="score-1">72</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Current score</div>
+        <div class="player-current-score" id="current-1">0</div>
+      </div>
+    </div>
+
+    <button class="btn btn-new"> Новая игра</button>
+    <button class="btn btn-roll">Roll dice</button>
+    <button class="btn btn-hold">Сохранить</button>
+
+
+    <img src="img/dice-5.png" alt="Dice" class="dice">
+  </div>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="audio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 50px;
+  font-style: italic;
+  font-size: 45px;
+}
+
+#slider {
+  margin: 50px auto;
+  width: 384px;
+  height: 128px;
+  border: 5px solid black;
+  overflow: hidden;
+}
+
+#polosa {
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+  left: 0;
+  position: relative;
+  background-color: #ffcccc;
+  width: 896px;
+}
+
+#polosa img {
+  float: left;
+}
+
+#polosa::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+button {
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Russo One', sans-serif;
+  padding: 20px 40px;
+  border: 1px solid black;
+  background-color: #fff;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
+button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=style.css.map */

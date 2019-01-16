@@ -1,0 +1,19 @@
+body #game {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, #6260b3 0%, #6260b3 18%, teal 100%);
+  color: yellow;
+}
+
+body .block {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #fff;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+/*# sourceMappingURL=main.css.map */
