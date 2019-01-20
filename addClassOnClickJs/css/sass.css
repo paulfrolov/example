@@ -1,0 +1,15 @@
+body {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.bordered {
+  border: 2px solid black;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+img {
+  margin: 20px;
+}
+/*# sourceMappingURL=sass.css.map */
